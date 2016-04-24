@@ -1,0 +1,12 @@
+{
+  "name": "shatup-frontend",
+  "authors": [
+    "Evandro Myller <eMyller@7ws.co>"
+  ],
+  "description": "Frontend code for the ShatUp project",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}
