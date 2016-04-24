@@ -8,5 +8,9 @@
   "moduleType": [],
   "license": "MIT",
   "homepage": "",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7"
+  }
 }

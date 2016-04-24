@@ -5,7 +5,36 @@ html
 		meta(charset='utf-8')
 		meta(name='viewport', content='initial-scale=1.0')
 
-		link(rel='stylesheet', type='text/css', href='/static/css/main.css')
+		//- Polymer elements
+		link(rel='import', href='/static/iron-flex-layout/iron-flex-layout.html')
+		link(rel='import', href='/static/paper-button/paper-button.html')
+		link(rel='import', href='/static/paper-input/paper-textarea.html')
+		link(rel='import', href='/static/paper-item/paper-item.html')
+		link(rel='import', href='/static/paper-listbox/paper-listbox.html')
+
+		link(rel='import', href='/static/css/main.html')
+
 	body
-		h1 Now ShatUp!
+		paper-material#main_view.layout-container
+
+			//- Contact list
+			paper-listbox#people
+				paper-item John
+				paper-item Samantha
+				paper-item Lucas
+				paper-item Jade
+
+			//- Chat body
+			section#chat
+				//- Message log
+				section#messages
+					div.incoming.message
+						div.body Hi!
+					div.outgoing.message
+						div.body Hey! :)
+
+				//- Text input
+				div#input_line
+					paper-textarea#input(label='New message', rows=2, max-rows=3)
+					paper-button Send
 
