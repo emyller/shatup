@@ -1,2 +1,5 @@
 # Our web framework
-muffin==0.6.1
+muffin==0.7.0
+
+# Muffin plugin to load/render Jade templates
+muffin-jade==0.0.8
