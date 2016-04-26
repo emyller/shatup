@@ -6,3 +6,6 @@ muffin==0.7.0
 
 # Muffin plugin to load/render Jade templates
 muffin-jade==0.0.8
+
+# Allow tests to be fun
+pytest==2.9.1
