@@ -4,8 +4,14 @@ Unipath==1.1
 # Our web framework
 muffin==0.7.0
 
+# Data structure server to store chat logs
+redis==2.10.5
+
 # Muffin plugin to load/render Jade templates
 muffin-jade==0.0.8
+
+# Muffin plugin to ease connection to Redis
+muffin-redis==1.1.1
 
 # Read sensitive settings from the environment
 python-decouple==3.0
