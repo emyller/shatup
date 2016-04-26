@@ -1,9 +1,12 @@
-# Ignore byte-compiled Python
+# Byte-compiled Python files
 *.pyc
 __pycache__/
 
 # Cache stuff
 .cache/
+
+# Environment-specific files
+/.env
 
 # 3rd-party static files
 /frontend/bower_components/
