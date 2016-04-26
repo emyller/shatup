@@ -1,0 +1,60 @@
+<style is="custom-style">
+
+html {
+	background: #333;
+}
+
+#main_view {
+	background: #e4e4e4;
+	height: 100%;
+}
+
+.layout-container {
+	@apply(--layout-horizontal);
+	@apply(--layout-wrap);
+	margin: auto;
+	max-width: 1000px;
+}
+
+#people {
+	width: 20rem;
+}
+
+#chat {
+	@apply(--layout-vertical);
+	@apply(--layout-flex);
+	padding: 1rem;
+}
+
+#messages {
+	@apply(--layout-flex);
+}
+
+#messages .message {
+	margin: 0 0 1rem;
+}
+
+.message .body {
+	background: #fff;
+	display: inline-block;
+	padding: 1rem;
+	border-radius: 3px;
+}
+
+.message.incoming {
+	text-align: left;
+}
+
+.message.outgoing {
+	text-align: right;
+}
+
+#input_line {
+	@apply(--layout-horizontal);
+}
+
+#input {
+	@apply(--layout-flex);
+}
+
+</style>

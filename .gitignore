@@ -1,3 +1,6 @@
 # Ignore byte-compiled Python
 *.pyc
 __pycache__/
+
+# 3rd-party static files
+/frontend/bower_components/

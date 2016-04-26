@@ -13,6 +13,7 @@ PLUGINS = [
 # Important directories
 STATIC_FOLDERS = [
     BASE_DIR.child('frontend', 'static'),
+    BASE_DIR.child('frontend', 'bower_components'),
 ]
 JADE_TEMPLATE_FOLDERS = [
     BASE_DIR.child('frontend', 'templates'),
