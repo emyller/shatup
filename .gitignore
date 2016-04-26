@@ -2,5 +2,8 @@
 *.pyc
 __pycache__/
 
+# Cache stuff
+.cache/
+
 # 3rd-party static files
 /frontend/bower_components/
