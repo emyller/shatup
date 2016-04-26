@@ -4,6 +4,9 @@ from decouple import config as read_conf  # `config` clashes with Muffin
 from backend.url_parser import parse_url
 
 
+# Debug mode
+DEBUG = read_conf('DEBUG', 'False', bool)
+
 # Basic (self-explanatory) definitions
 BASE_DIR = Path(__file__).ancestor(2)
 
